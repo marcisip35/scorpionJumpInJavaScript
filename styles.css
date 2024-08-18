@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    font-family: sans-serif;
+
+    display: grid;
+    place-items:center;
+}
+
+#container{
+    width: 600px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+#gameCanvas{
+    height: 400px;
+    width: 100%;
+    border: 1px solid white;
+    background-color: darkgreen;
+}
+
+#player{
+    width: 20px;
+    height: 40px;
+    background-color: black;
+}
+
+#textScore{
+    width: 100%;
+    color: white;
+}
+
+#resetButton{
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
